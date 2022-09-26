@@ -17,6 +17,7 @@ function App() {
         <TopNavigation></TopNavigation>
 
         <Routes>
+          <Route exact path="/" element={<Meals></Meals>}></Route>
           <Route exact path="/meals" element={<Meals></Meals>}></Route>
           <Route exact path="/about" element={<About></About>}></Route>
           <Route exact path="/cart" element={<Cart></Cart>}></Route>
